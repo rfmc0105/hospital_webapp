@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bilingual visitor information chatbot for Tokyo Metropolitan Ohtsuka Hospital.">
+  <title>Ohtsuka Hospital | Visitor Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="/" aria-label="Ohtsuka Hospital home">
+      <span class="brand-mark">＋</span>
+      <span><strong>OHTSUKA</strong><small>HOSPITAL INFORMATION</small></span>
+    </a>
+    <div class="top-actions">
+      <span class="status"><i></i><span data-i18n="service">Visitor information</span></span>
+      <div class="language-switch" aria-label="Language">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="ja">日本語</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="eyebrow">TOKYO METROPOLITAN HOSPITAL ORGANIZATION</p>
+        <h1 data-i18n="heroTitle">How can we help<br>you today?</h1>
+        <p class="hero-description" data-i18n="heroDescription">Find practical information about appointments, outpatient visits, departments and getting here.</p>
+        <a class="official-link" href="https://www.tmhp.jp/ohtsuka/en/" target="_blank" rel="noopener noreferrer">
+          <span data-i18n="official">Visit official hospital website</span><span aria-hidden="true">↗</span>
+        </a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-circle circle-one"></div><div class="art-circle circle-two"></div>
+        <div class="hospital-icon"><span>＋</span><div class="hospital-windows"></div></div>
+        <div class="art-label"><span class="pulse"></span><span data-i18n="bilingual">Japanese · English</span></div>
+      </div>
+    </section>
+
+    <section class="content-grid">
+      <section class="chat-card">
+        <div class="card-heading">
+          <div class="assistant-avatar">＋</div>
+          <div><h2 data-i18n="chatTitle">Hospital information assistant</h2><p data-i18n="chatSubtitle">Ask a question to get started</p></div>
+          <span class="online-pill"><i></i><span data-i18n="online">Online</span></span>
+        </div>
+        <div id="chat-messages" class="chat-messages" aria-live="polite">
+          <div class="message assistant">
+            <div class="message-avatar">＋</div>
+            <div class="message-body">
+              <div class="bubble" id="welcome-message">Hello! I can help you find hospital information. What would you like to know?</div>
+              <span class="message-time" data-i18n="now">Just now</span>
+            </div>
+          </div>
+        </div>
+        <div class="suggestions-label" data-i18n="suggestions">SUGGESTED QUESTIONS</div>
+        <div class="suggestions" id="suggestions">
+          <button class="suggestion" data-question="appointment"><span>▦</span><span data-i18n="suggestAppointment">How do I make an appointment?</span></button>
+          <button class="suggestion" data-question="hours"><span>◷</span><span data-i18n="suggestHours">What are the reception hours?</span></button>
+          <button class="suggestion" data-question="access"><span>⌖</span><span data-i18n="suggestAccess">How do I get there?</span></button>
+          <button class="suggestion" data-question="referral"><span>▤</span><span data-i18n="suggestReferral">Do I need a referral letter?</span></button>
+        </div>
+        <form id="chat-form" class="chat-input">
+          <input id="message-input" type="text" autocomplete="off" placeholder="Type your question here..." aria-label="Your question">
+          <button type="submit" aria-label="Send message" class="send-button">➤</button>
+        </form>
+        <p class="chat-footnote" data-i18n="chatFootnote">This assistant provides general visitor information, not medical advice.</p>
+      </section>
+
+      <aside class="info-column">
+        <section class="info-card contact-card">
+          <div class="section-icon">☎</div>
+          <p class="card-kicker" data-i18n="appointments">APPOINTMENTS</p>
+          <h3>03-3941-5489</h3>
+          <p data-i18n="appointmentHours">Weekdays, 9:00 a.m.–5:00 p.m.</p>
+          <a href="tel:0339415489" class="card-action"><span data-i18n="callAppointment">Call appointment desk</span> ↗</a>
+        </section>
+        <section class="info-card">
+          <div class="section-icon pale">⌖</div>
+          <p class="card-kicker" data-i18n="location">LOCATION</p>
+          <h3 data-i18n="hospitalName">Tokyo Metropolitan Ohtsuka Hospital</h3>
+          <p data-i18n="address">2-8-1 Minamiotsuka, Toshima-ku, Tokyo 170-8476</p>
+          <a href="https://www.tmhp.jp/ohtsuka/en/directions.html" target="_blank" rel="noopener noreferrer" class="card-action"><span data-i18n="directions">Directions and access</span> ↗</a>
+        </section>
+        <section class="emergency-note">
+          <div class="emergency-symbol">!</div>
+          <div><strong data-i18n="emergencyTitle">Emergency information</strong><p data-i18n="emergencyText">Emergency visits are accepted 24 hours. Please call the hospital before coming.</p><a href="tel:0339413211">03-3941-3211</a></div>
+        </section>
+      </aside>
+    </section>
+
+    <section class="bottom-grid">
+      <div class="bottom-card">
+        <div class="bottom-icon">✚</div>
+        <div><h3 data-i18n="departmentsTitle">Medical departments</h3><p data-i18n="departmentsText">Check the hospital's departments and specialties.</p><a href="https://www.tmhp.jp/ohtsuka/" target="_blank" rel="noopener noreferrer" data-i18n="learnMore">Learn more ↗</a></div>
+      </div>
+      <div class="bottom-card">
+        <div class="bottom-icon">▣</div>
+        <div><h3 data-i18n="outpatientTitle">Outpatient guide</h3><p data-i18n="outpatientText">Read first-visit and returning-patient procedures.</p><a href="https://www.tmhp.jp/ohtsuka/en/outpatient.html" target="_blank" rel="noopener noreferrer" data-i18n="learnMore">Learn more ↗</a></div>
+      </div>
+    </section>
+
+    <footer>
+      <span>© Tokyo Metropolitan Ohtsuka Hospital — Independent information demo</span>
+      <span data-i18n="disclaimer">Not an official hospital service. Confirm details with the hospital.</span>
+    </footer>
+  </main>
+  <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

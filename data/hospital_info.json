@@ -1,0 +1,276 @@
+{
+  "hospital": {
+    "name": {
+      "ja": "東京都立大塚病院",
+      "en": "Tokyo Metropolitan Ohtsuka Hospital"
+    },
+    "address": {
+      "ja": "〒170-8476 東京都豊島区南大塚2-8-1",
+      "en": "2-8-1 Minamiotsuka, Toshima-ku, Tokyo 170-8476, Japan"
+    },
+    "appointment_phone": "03-3941-5489",
+    "main_phone": "03-3941-3211",
+    "appointment_hours": {
+      "ja": "平日 9:00～17:00（土曜・日曜・祝日、12月29日～1月3日を除く）",
+      "en": "Weekdays, 9:00 a.m.–5:00 p.m. Closed on Saturdays, Sundays, national holidays, and December 29–January 3."
+    },
+    "routine_visit": {
+      "ja": "通常の外来受診は予約制です。受診前に予約専用電話へお問い合わせください。",
+      "en": "Routine outpatient visits are by appointment. Please call the dedicated appointment number before visiting."
+    },
+    "referral": {
+      "ja": "初診の場合、原則として医療機関からの紹介状が必要です。紹介状をお持ちでない場合、通常の診療費とは別に初診時選定療養費（7,000円、歯科は5,000円）がかかる場合があります。",
+      "en": "As a general rule, first-time patients should bring a referral letter from a clinic or another medical institution. Patients without a referral may be charged an additional non-referred new patient fee of ¥7,000 (¥5,000 for dentistry), in addition to regular medical fees."
+    },
+    "emergency": {
+      "ja": "救急受診は24時間受け付けています。ただし、専門医の不在や救急対応の状況により診察できない場合があります。来院前に必ず電話でお問い合わせください。",
+      "en": "Emergency visits are accepted 24 hours a day. However, a specialist may not be available, or the team may be handling critical cases. Please call before coming to the hospital."
+    },
+    "first_visit_steps": {
+      "ja": "1階の受付（2番窓口）で番号札を取り、診療申込書を記入してください。番号を呼ばれたら、診療申込書、健康保険証等、紹介状、関連書類を受付へ提出してください。",
+      "en": "At the first-floor reception desk (Counter No. 2), take a number card and complete the medical treatment request form. When your number is called, submit the form, your health insurance card or relevant insurance documentation, referral letter, and other relevant documents."
+    },
+    "return_visit": {
+      "ja": "再診の場合は、予約時間前に正面玄関付近の再来受付機へ診察券を入れて受付してください。その後、診療科の受付へお進みください。",
+      "en": "For a follow-up visit, use your patient registration card at the reception machine near the main entrance before your appointment time. Then go to your department's reception counter."
+    },
+    "access": {
+      "ja": "東京メトロ丸ノ内線「新大塚駅」から徒歩約2分。JR山手線「大塚駅」から徒歩約10分。都営バス「大塚四丁目」停留所から徒歩約2分。",
+      "en": "About a 2-minute walk from Shin-Otsuka Station on the Tokyo Metro Marunouchi Line; about a 10-minute walk from Otsuka Station on the JR Yamanote Line; or about a 2-minute walk from the Otsuka 4-chome Toei Bus stop."
+    },
+    "website": "https://www.tmhp.jp/ohtsuka/en/",
+    "outpatient_url": "https://www.tmhp.jp/ohtsuka/en/outpatient.html",
+    "directions_url": "https://www.tmhp.jp/ohtsuka/en/directions.html",
+    "contact_url": "https://www.tmhp.jp/ohtsuka/en/contact.html"
+  },
+  "departments": {
+    "ja": [
+      "内科",
+      "血液内科",
+      "糖尿病・内分泌内科",
+      "神経内科",
+      "呼吸器内科",
+      "循環器内科",
+      "消化器内科",
+      "腎臓内科",
+      "老年内科",
+      "緩和ケア内科",
+      "外科",
+      "脳神経外科",
+      "呼吸器外科",
+      "消化器外科",
+      "乳腺外科",
+      "整形外科",
+      "形成外科",
+      "小児科",
+      "産婦人科",
+      "眼科",
+      "耳鼻咽喉科",
+      "皮膚科",
+      "泌尿器科",
+      "歯科口腔外科",
+      "リウマチ科",
+      "リハビリテーション科",
+      "放射線科"
+    ],
+    "en": [
+      "Internal Medicine",
+      "Hematology",
+      "Diabetes and Endocrinology",
+      "Neurology",
+      "Respiratory Medicine",
+      "Cardiology",
+      "Gastroenterology",
+      "Nephrology",
+      "Geriatric Medicine",
+      "Palliative Care",
+      "Surgery",
+      "Neurosurgery",
+      "Thoracic Surgery",
+      "Gastrointestinal Surgery",
+      "Breast Surgery",
+      "Orthopedics",
+      "Plastic Surgery",
+      "Pediatrics",
+      "Obstetrics and Gynecology",
+      "Ophthalmology",
+      "Otolaryngology (ENT)",
+      "Dermatology",
+      "Urology",
+      "Oral and Maxillofacial Surgery",
+      "Rheumatology",
+      "Rehabilitation",
+      "Radiology"
+    ]
+  },
+  "faq": [
+    {
+      "id": "hours",
+      "keywords": [
+        "受付時間",
+        "診療時間",
+        "何時",
+        "営業時間",
+        "hours",
+        "opening time",
+        "reception time",
+        "what time"
+      ],
+      "ja": "通常の外来受診は予約制です。予約専用電話の受付時間は平日9:00～17:00です。土曜・日曜・祝日および12月29日～1月3日は予約電話の受付を休止しています。",
+      "en": "Routine outpatient visits are by appointment. The appointment phone line is open on weekdays from 9:00 a.m. to 5:00 p.m. It is closed on weekends, national holidays, and December 29–January 3."
+    },
+    {
+      "id": "appointment",
+      "keywords": [
+        "予約",
+        "予約方法",
+        "予約したい",
+        "予約電話",
+        "appointment",
+        "book",
+        "booking",
+        "make an appointment",
+        "schedule"
+      ],
+      "ja": "予約専用電話 03-3941-5489 へお電話ください。受付時間は平日9:00～17:00です。通常の外来受診は予約制です。",
+      "en": "To make an appointment, call 03-3941-5489. The appointment line is open weekdays from 9:00 a.m. to 5:00 p.m. Routine outpatient visits are by appointment."
+    },
+    {
+      "id": "referral",
+      "keywords": [
+        "紹介状",
+        "紹介",
+        "初診",
+        "紹介状なし",
+        "referral",
+        "referral letter",
+        "first visit",
+        "new patient"
+      ],
+      "ja": "初診の場合、原則として医療機関からの紹介状が必要です。紹介状がない場合、初診時選定療養費7,000円（歯科は5,000円）が別途かかる場合があります。詳細は病院へご確認ください。",
+      "en": "As a general rule, first-time patients should bring a referral letter. Without one, an additional non-referred new patient fee of ¥7,000 (¥5,000 for dentistry) may apply. Please confirm details with the hospital."
+    },
+    {
+      "id": "address",
+      "keywords": [
+        "住所",
+        "場所",
+        "どこ",
+        "所在地",
+        "address",
+        "location",
+        "where",
+        "located"
+      ],
+      "ja": "所在地は〒170-8476 東京都豊島区南大塚2-8-1です。",
+      "en": "The address is 2-8-1 Minamiotsuka, Toshima-ku, Tokyo 170-8476, Japan."
+    },
+    {
+      "id": "access",
+      "keywords": [
+        "アクセス",
+        "行き方",
+        "最寄り駅",
+        "駅",
+        "電車",
+        "access",
+        "directions",
+        "nearest station",
+        "train",
+        "get there"
+      ],
+      "ja": "東京メトロ丸ノ内線「新大塚駅」から徒歩約2分、JR山手線「大塚駅」から徒歩約10分です。",
+      "en": "The hospital is about a 2-minute walk from Shin-Otsuka Station (Tokyo Metro Marunouchi Line) and about a 10-minute walk from Otsuka Station (JR Yamanote Line)."
+    },
+    {
+      "id": "phone",
+      "keywords": [
+        "電話",
+        "連絡先",
+        "問い合わせ",
+        "電話番号",
+        "phone",
+        "telephone",
+        "contact",
+        "call",
+        "number"
+      ],
+      "ja": "代表電話は03-3941-3211、予約専用電話は03-3941-5489です。予約電話の受付は平日9:00～17:00です。",
+      "en": "The main phone number is 03-3941-3211. For appointments, call 03-3941-5489 on weekdays from 9:00 a.m. to 5:00 p.m."
+    },
+    {
+      "id": "emergency",
+      "keywords": [
+        "救急",
+        "緊急",
+        "夜間",
+        "休日",
+        "emergency",
+        "urgent",
+        "24 hours",
+        "after hours",
+        "night"
+      ],
+      "ja": "救急受診は24時間受け付けています。ただし、専門医の不在等により対応できない場合があります。来院前に03-3941-3211へ電話でお問い合わせください。生命の危険がある場合は119番へ連絡してください。",
+      "en": "Emergency visits are accepted 24 hours a day, but a specialist may not be available. Please call 03-3941-3211 before coming. If someone's life is in immediate danger, call 119 in Japan."
+    },
+    {
+      "id": "documents",
+      "keywords": [
+        "持ち物",
+        "必要なもの",
+        "保険証",
+        "書類",
+        "bring",
+        "documents",
+        "what should i bring",
+        "insurance card"
+      ],
+      "ja": "初診時は、健康保険証または資格確認書等、紹介状、診療申込書に必要な情報、その他関連書類をお持ちください。お薬手帳なども必要に応じてご用意ください。",
+      "en": "For a first visit, bring your health insurance card or other proof of insurance eligibility, referral letter, and relevant medical documents. Bring your medication record book if applicable."
+    },
+    {
+      "id": "departments",
+      "keywords": [
+        "診療科",
+        "診療科目",
+        "科",
+        "専門",
+        "department",
+        "departments",
+        "specialties",
+        "medical department"
+      ],
+      "ja": "主な診療科は、内科、外科、小児科、産婦人科、整形外科、皮膚科、眼科、耳鼻咽喉科、泌尿器科などです。全診療科は「診療科・部門」ページでご確認ください。",
+      "en": "Departments include Internal Medicine, Surgery, Pediatrics, Obstetrics and Gynecology, Orthopedics, Dermatology, Ophthalmology, ENT, and Urology, among others. Please check the hospital website for the complete list."
+    },
+    {
+      "id": "followup",
+      "keywords": [
+        "再診",
+        "2回目",
+        "診察券",
+        "return visit",
+        "follow-up",
+        "existing patient"
+      ],
+      "ja": "再診の場合は、予約時間前に正面玄関付近の再来受付機へ診察券を入れて受付してください。",
+      "en": "For a follow-up visit, use your patient registration card at the reception machine near the main entrance before your appointment time."
+    },
+    {
+      "id": "payment",
+      "keywords": [
+        "支払い",
+        "会計",
+        "料金",
+        "payment",
+        "pay",
+        "bill",
+        "cost",
+        "fee"
+      ],
+      "ja": "診察終了後、1階の会計窓口（6番窓口）で会計の案内を受け、番号が表示されたら自動精算機でお支払いください。診療費の具体的な金額は診療内容によって異なります。",
+      "en": "After your examination, go to the accounting desk (Counter No. 6) on the first floor. When your number appears, pay using the automated payment machines. The amount depends on the services provided."
+    }
+  ]
+}
